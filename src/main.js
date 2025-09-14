@@ -17,3 +17,4 @@
 
 
 import './js/render-tasks.js';
+import './js/local-storage-api.js';
