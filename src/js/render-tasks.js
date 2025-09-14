@@ -16,4 +16,11 @@ function addTask(event) {
     event.target.reset();
 }
 
+taskList.addEventListener('click', deleteBtn);
 
+function deleteBtn(e) {
+  if (e.target.classList.contains('task-list-item-btn')) {
+    const parent = e.target.closest('.task-list-item');
+    parent.remove();
+  }
+}
