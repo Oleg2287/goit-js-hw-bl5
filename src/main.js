@@ -14,3 +14,6 @@
       <p>Текст</p>
   </li>
 */
+
+
+import './js/render-tasks.js';
